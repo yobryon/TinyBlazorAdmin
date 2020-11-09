@@ -33,7 +33,7 @@ else
             {
                 <tr>
                     <td><button type="button" class="btn btn-outline-primary btn-sm" @onclick="@(() => CopyToClipboardAsync(url.ShortUrl))">Copy</button></td>
-                    <td><a href="https://@url.ShortUrl" target="blank">@url.RowKey</a></td>
+                    <td><a href="https://@url.ShortUrl" target="_blank">@url.RowKey</a></td>
                     <td>
                         <span>@url.Title</span>
                     </td>
